@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Library</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<script src="script.js"></script>
+
+<header class="header">
+  <div class="header-1">
+    <a href="#" class="logo"><i class="fas fa-book"></i> e-Library</a>
+    <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here...." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+      <div id="search-btn" class="fas fa-search"></div>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <div id="login-btn" class="fas fa-user"></div>
+    </div>
+  </div>
+  <div class="header-2">
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#featured">Featured</a>
+      <a href="#arrivals">Arrivals</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="bottom-navbar">
+  <a href="#home" class="fas fa-home"></a>
+  <a href="#featured" class="fas fa-list"></a>
+  <a href="#arrivals" class="fas fa-tags"></a>
+  <a href="#reviews" class="fas fa-comments"></a>
+  <a href="#blogs" class="fas fa-blogs"></a>
+</nav>
+
+<div class="login-form-container">
+  <div id="close-login-btn" class="fas fa-times"></div>
+  <form action="">
+    <h3>sign in</h3>
+    <span>Username</span>
+    <input type="email" name="" class="box" placeholder="enter your email" id="">
+    <span>Password</span>
+    <input type="password" name="" class="box" placeholder="enter your password" id="">
+    <div class="checkbox">
+      <input type="checkbox" name="" id="remember-me">
+      <label for="remember-me">Remember Me</label>
+    </div>
+    <input type="submit" value="sign in" class="btn">
+    <p>Forget Password ? <a href="#">click here</a></p>
+    <p>Don't Have An Account? <a href="#">create one</a></p>
+  </form>
+</div>
+
+<section class="home" id="home">
+  <div class="row">
+    <div class="content">
+      <h3>Upto 75% off</h3>
+      <p>Our Library Management System is designed to make managing library resources easier and more efficient. Whether you're a librarian or a library user, our system provides the tools you need to organize, search, and access books and other materials. Our team consists of passionate individuals dedicated to improving library services and enhancing the user experience. We are constantly working to innovate and develop new features to meet the evolving needs of our users.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="books-slider">
+      <div class="wrapper">
+        <a href="#"><img src="images/book-1.jpg" alt=""></a>
+        <a href="#"><img src="images/book-2.jpg" alt=""></a>
+        <a href="#"><img src="images/book-3.jpg" alt=""></a>
+        <a href="#"><img src="images/book-10.jpg" alt=""></a>
+        <a href="#"><img src="images/book-5.jpg" alt=""></a>
+        <a href="#"><img src="images/book-6.jpg" alt=""></a>
+        <a href="#"><img src="images/book-4.jpg" alt=""></a>
+        <a href="#"><img src="images/book-7.jpg" alt=""></a>
+      </div>
+          </div>
+  </div>
+<section class="icons-container">
+  <div class="icons">
+    <i class="fas fa-plane"></i>
+    <div class="content">
+      <h3>Free shipping</h3>
+      <p>Order over Rs.500/-</p>
+    </div>
+  </div>
+
+  <div class="icons">
+    <i class="fas fa-lock"></i>
+    <div class="content">
+      <h3>Secure Payment</h3>
+      <p>100% secure payments</p>
+    </div>
+  </div>
+
+  <div class="icons">
+    <i class="fas fa-redo-alt"></i>
+    <div class="content">
+      <h3>Easy Returns</h3>
+      <p>10 days Returns</p>
+    </div>
+  </div>
+
+  <div class="icons">
+    <i class="fas fa-headset"></i>
+    <div class="content">
+      <h3>24/7 Support</h3>
+      <p>Call us any time</p>
+    </div>
+  </div>
+</section>
+
+<section class="featured" id="featured">
+<h1 class="heading"><span>Featured books</span></h1>
+<div class=" swiper featured-slider">
+<div class="swiper-wrapper">
+<div class="swiper-slide box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-1.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.80/-<span>Rs.82/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+</div>
+
+<div class="box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-2.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.39/-<span>Rs.42/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+<div class="box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-3.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.50/-<span>Rs.56/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+
+<div class="box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-10.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.56/-<span>Rs.62/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+<div class="box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-5.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.87/-<span>Rs.98/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+
+
+<div class="box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-6.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.100/-<span>Rs.118/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+
+
+<div class="box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-4.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.80/-<span>Rs.92/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+
+<div class="swiper-slide box">
+<div class="icons">
+<a href="#" class="fas fa-search"></a>
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="images/book-7.jpg"alt="">
+</div>
+<div class="content">
+<h3>Featured books</h3>
+<div class="price">Rs.76/-<span>Rs.92/- </span></div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+
+
+</div>
+</div>
+</section>
+
+<section class="newsletter">
+  <form action="">
+    <h3 style="color:black">Subscribe for latest updates</h3>
+    <input type="email" name="" placeholder="Enter your email" id="" class="box" >
+    <input type="submit" value="Subscribe" class="btn">
+  </form>
+</section>
+
+
+<section class="arrivals" id="arrivals">
+  <h1 class="heading"><span>New Arrivals</span></h1>
+  <div class="swiper arrivals-slider">
+    <div class="swiper-wrapper">
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="images/book-8.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>New Arrivals</h3>
+          <div class="price">Rs.100/- <span>Rs.150/-</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="images/book-9.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>New Arrivals</h3>
+          <div class="price">Rs.120/- <span>Rs.140/-</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="images/book-11.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>New Arrivals</h3>
+          <div class="price">Rs.125/- <span>Rs.130/-</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="swiper-slide box">
+        <div class="image">
+          <img src="images/book-12.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>New Arrivals</h3>
+          <div class="price">Rs.117/- <span>Rs.169/-</span></div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </a>
+     
+    </div>
+  </div>
+</section>
+
+<section class="deal">
+  <div class="content">
+    <h1>Deal of the day...!</h1>
+    <h2>Upto 50% off...!🥳🎉🎊</h2>
+    <p>
+      "Today's deal: Dive into a captivating journey with our featured book, <strong>'The Mystery of DarkHill School.'</strong> Uncover ancient mysteries, thrilling adventures, and secrets waiting to be discovered. Grab your copy now and embark on an unforgettable literary expedition!"
+    </p>
+<a href="#" class="btn" > Shop Now</a>
+  </div>
+  <div class="image">
+    <img src="images/deal-img.jpg" alt="">
+  </div>
+</section>
+
+
+<section class="reviews" id="reviews">
+  <h1 class="heading"><span>Client's reviews</span></h1>
+  <div class="wrap">
+    <div class="box">
+      <img src="images/pic-1.jpg" alt="" width="200" height="200">
+      <h3 style="font-size:5vw;">John</h3>
+      <p style="font-size:3vw;">A poignant exploration of love and loss, 'The Heart's Echo' touched my soul in ways I never expected. With its lyrical prose and heartfelt characters, this book is an emotional masterpiece.</p>
+      <div class="stars" style="font-size:5vw;">
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star-half-alt" style="color:green"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/pic-2.jpg" alt="" width="200" height="200">
+      <h3 style="font-size:5vw;">Jessica</h3>
+      <p style="font-size:2vw;">An adrenaline-fueled thriller that had me on the edge of my seat until the very end. 'Shadow of Deception' is a rollercoaster ride of twists and turns, keeping readers guessing at every corner. Gripping and unputdownable.</p>
+      <div class="stars" style="font-size:5vw;">
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star"  style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star-half-alt" style="color:green"></i>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="images/pic-3.jpg" alt="" width="200" height="200">
+      <h3 style="font-size:5vw;">Michael</h3>
+      <p style="font-size:2vw;">A thought-provoking exploration of identity and belonging, 'Into the Unknown' is a literary gem that resonates long after the final chapter. With its beautiful prose and compelling characters, this book is a must-read for anyone seeking deeper meaning.</p>
+      <div class="stars" style="font-size:5vw;">
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star-half-alt" style="color:green"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/pic-4.jpg" alt="" width="200" height="200">
+      <h3 style="font-size:5vw;">Sara</h3>
+      <p style="font-size:2vw;">A delightful rom-com that had me laughing out loud from the first page to the last. 'Love in Bloom' is a charming tale of unexpected romance and second chances, sprinkled with humor and heart.</p>
+      <div class="stars" style="font-size:5vw;">
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star-half-alt" style="color:green"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/pic-5.jpg" alt="" width="200" height="200">
+      <h3 style="font-size:5vw;">Mark</h3>
+      <p style="font-size:2vw;">An enchanting fantasy adventure that swept me away to a world of magic and intrigue. 'The Chronicles of Elysium' is a captivating journey filled with mythical creatures and epic quests. A must-read for fans of the genre!</p>
+      <div class="stars" style="font-size:5vw;">
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star-half-alt" style="color:green"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/pic-6.jpg" alt="" width="200" height="200">
+      <h3 style="font-size:5vw;">Rachel</h3>
+      <p style="font-size:2vw;">A gripping historical fiction that vividly brings the past to life. 'Echoes of War' is a haunting tale of courage and resilience, painting a vivid picture of wartime struggles and triumphs. A powerful and unforgettable read.</p>
+      <div class="stars" style="font-size:5vw;">
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star" style="color:green"></i>
+        <i class="fas fa-star-half-alt" style="color:green"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="blogs" id="blogs">
+<h1 class="heading"> <span> Our Blogs </span></h1>
+<div class="blogs-slider">
+<div class="wrapper">
+
+<div class="box">
+<div class="image">
+<img src="images/blog-1.jpg" alt="" width="350" height="300">
+</div>
+<div class="content">
+<h1 style="font-size:5vw;">Bookish Escapes</h1>
+<p style="font-size:2vw;"> Dive into immersive book reviews and literary discussions that transport you to new worlds and adventures.</p>
+<a href="#" class="btn">Read more</a>
+
+</div>
+</div>
+
+
+<div class="box">
+<div class="image">
+<img src="images/blog-2.jpg" alt="" width="350" height="300">
+</div>
+<div class="content">
+<h1 "font-size:5vw;">Wordsmith's Haven</h1>
+<p style="font-size:2vw;">Explore the art of storytelling through insightful book analyses, author interviews, and writing tips that inspire creativity. </p>
+<a href="#" class="btn">Read more</a>
+
+
+</div>
+</div>
+
+
+
+<div class="box">
+<div class="image">
+<img src="images/blog-3.jpg" alt="" width="350" height="300">
+</div>
+<div class="content">
+<h1 "font-size:5vw;">Page Turner's Paradise</h1>
+<p style="font-size:2vw;"> Lose yourself in the pages of captivating book recommendations, curated lists, and literary musings that ignite your passion for reading.</p>
+<a href="#" class="btn">Read more</a>
+
+
+</div>
+</div>
+
+<div class="box">
+<div class="image">
+<img src="images/blog-4.jpg" alt=""  width="350" height="300">
+</div>
+<div class="content">
+<h1 "font-size:5vw;">Bibliophile's Corner:</h1>
+<p style="font-size:2vw;">Journey through the vast landscape of literature with in-depth book critiques, genre spotlights, and reader recommendations that satisfy every book lover's appetite. </p>
+<a href="#" class="btn">Read more</a>
+
+
+</div>
+</div>
+
+
+<div class="box">
+<div class="image">
+<img src="images/blog-5.jpg" alt="" width="350" height="300">
+</div>
+<div class="content">
+<h1 "font-size:5vw;">Novel Nook</h1>
+<p style="font-size:2vw;"> Discover hidden literary gems and popular bestsellers alike with thoughtful reviews, bookish news, and engaging discussions that celebrate the magic of storytelling.</p>
+<a href="#" class="btn">Read more</a>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+</body>
+</html>
